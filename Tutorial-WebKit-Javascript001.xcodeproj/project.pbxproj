@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96ADE7301C64FD800088EFAA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 96ADE72F1C64FD800088EFAA /* index.html */; };
+		96ADE7321C64FD8B0088EFAA /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 96ADE7311C64FD8B0088EFAA /* main.js */; };
 		96F158DC1C64DC5C0033E202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F158DB1C64DC5C0033E202 /* AppDelegate.swift */; };
 		96F158DE1C64DC5C0033E202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F158DD1C64DC5C0033E202 /* ViewController.swift */; };
 		96F158E11C64DC5C0033E202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F158DF1C64DC5C0033E202 /* Main.storyboard */; };
 		96F158E31C64DC5C0033E202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F158E21C64DC5C0033E202 /* Assets.xcassets */; };
 		96F158E61C64DC5C0033E202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F158E41C64DC5C0033E202 /* LaunchScreen.storyboard */; };
 		96F158F11C64DC5C0033E202 /* Tutorial_WebKit_Javascript001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F158F01C64DC5C0033E202 /* Tutorial_WebKit_Javascript001Tests.swift */; };
+		96F158FC1C64DC6E0033E202 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F158FB1C64DC6E0033E202 /* WebKit.framework */; };
+		96F158FE1C64DCE10033E202 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96F158FD1C64DCE10033E202 /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96ADE72F1C64FD800088EFAA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		96ADE7311C64FD8B0088EFAA /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		96F158D81C64DC5C0033E202 /* Tutorial-WebKit-Javascript001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial-WebKit-Javascript001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F158DB1C64DC5C0033E202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F158DD1C64DC5C0033E202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		96F158EC1C64DC5C0033E202 /* Tutorial-WebKit-Javascript001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial-WebKit-Javascript001Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F158F01C64DC5C0033E202 /* Tutorial_WebKit_Javascript001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_WebKit_Javascript001Tests.swift; sourceTree = "<group>"; };
 		96F158F21C64DC5C0033E202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F158FB1C64DC6E0033E202 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		96F158FD1C64DCE10033E202 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F158FC1C64DC6E0033E202 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +68,7 @@
 		96F158CF1C64DC5C0033E202 = {
 			isa = PBXGroup;
 			children = (
+				96F158FB1C64DC6E0033E202 /* WebKit.framework */,
 				96F158DA1C64DC5C0033E202 /* Tutorial-WebKit-Javascript001 */,
 				96F158EF1C64DC5C0033E202 /* Tutorial-WebKit-Javascript001Tests */,
 				96F158D91C64DC5C0033E202 /* Products */,
@@ -83,6 +93,9 @@
 				96F158E21C64DC5C0033E202 /* Assets.xcassets */,
 				96F158E41C64DC5C0033E202 /* LaunchScreen.storyboard */,
 				96F158E71C64DC5C0033E202 /* Info.plist */,
+				96ADE72F1C64FD800088EFAA /* index.html */,
+				96ADE7311C64FD8B0088EFAA /* main.js */,
+				96F158FD1C64DCE10033E202 /* ReadMe.txt */,
 			);
 			path = "Tutorial-WebKit-Javascript001";
 			sourceTree = "<group>";
@@ -177,8 +190,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ADE7301C64FD800088EFAA /* index.html in Resources */,
 				96F158E61C64DC5C0033E202 /* LaunchScreen.storyboard in Resources */,
 				96F158E31C64DC5C0033E202 /* Assets.xcassets in Resources */,
+				96ADE7321C64FD8B0088EFAA /* main.js in Resources */,
+				96F158FE1C64DCE10033E202 /* ReadMe.txt in Resources */,
 				96F158E11C64DC5C0033E202 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +404,7 @@
 				96F158F71C64DC5C0033E202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96F158F81C64DC5C0033E202 /* Build configuration list for PBXNativeTarget "Tutorial-WebKit-Javascript001Tests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +413,7 @@
 				96F158FA1C64DC5C0033E202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
